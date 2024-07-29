@@ -1,0 +1,24 @@
+composer require laravel/passport
+php artisan migrate
+php artisan passport:install
+
+In Postmans Headers:
+
+key->Accept, value->application/json
+key->Authorization, value->Bearer token_got
+
+
+ INFO  Personal access client created successfully.  
+
+  Client ID ...................................................................................... 1  
+  Client secret ........................................... 83WtvEvdB4Z7ARovhM7Ow0JHQtdM5UUdvB914kFu  
+
+   INFO  Password grant client created successfully.  
+
+  Client ID ...................................................................................... 2  
+  Client secret ........................................... b7x5aEELJcAoIr08vgW9oYDMbAsDiMz58vPukmuh
+
+  INFO  Personal access client created successfully.  
+
+  Client ID ............................................................................... 3  
+  Client secret .................................... 2Dh3KpsVu9iLhoisZWwuzwk5fPOCo9MiDGM0KPvn 
